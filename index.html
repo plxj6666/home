@@ -1,13 +1,13 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>不才才 bucaicai</title>
-    <meta name="description" content="95后青年，后端开发者，略懂前端, 学生，实习，缺乏社会的毒打">
-    <meta name="keywords" content="Java,Spring,个人博客，微信小程序，博客">
+    <title>argcxiang's blog</title>
+    <meta name="description" content="whu Information Security">
+    <meta name="keywords" content="single dog!">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="static/css/index.css">
@@ -29,7 +29,7 @@
                     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                     <script>
                         var typed = new Typed(".blogtitle", {
-                            strings: ['求知若饥，虚心若愚', 'Stay Hungry Stay Foolish'],
+                            strings: ['生活以痛吻我，我报之以歌', 'Life kisses me with pain, and I repay it with a song'],
                             startDelay: 300,
                             typeSpeed: 100,
                             loop: true,
@@ -47,13 +47,14 @@
                         <div class="card-content">
                             <div class="card-info-avatar is-center">
                                 <img class="avatar-img"
-                                    src="https://cdn.jsdelivr.net/gh/laoxuai/assert/images/20200125221102.png"
+                                    src="https://cdn.jsdelivr.net/gh/plxj6666/Pictures/src/touxiang.jpg"
                                     alt="avatar">
-                                <div class="author-info__name">Bucaicai</div>
-                                <div class="author-info__description">95后青年，后端开发者，略懂前端, <s>学生，实习</s>，缺乏社会的毒打</div>
+                                <div class="author-info__name">xiangpl</div>
+                                <div class="author-info__description">whu Information Security</div>
+                                <div class="author-info__description">Email: argc_xiang@whu.edu.cn</div>
                             </div>
                             <div class="card-info-social-icons is-center">
-                                <a class="social-icon" href="https://github.com/laoxuai" target="_blank">
+                                <a class="social-icon" href="https://github.com/plxj6666" target="_blank">
                                     <i class="fa fa-github"></i>
                                 </a>
                             </div>
@@ -100,17 +101,26 @@
                 </div>
                 <article id="page">
                     <div class="article-container">
-                        <h2>音乐</h2>
-                        <meting-js auto="https://y.qq.com/n/yqq/playlist/7713574197.html">
-                        </meting-js>
+                        <h2>Music</h2>
+                        <!-- require APlayer -->
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+                            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+                            <!-- require MetingJS -->
+                            <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+                            <meting-js
+                                server="netease"
+                                type="playlist"
+                                id="8757386203">
+                            </meting-js>
                         <hr>
 
-                        <h2>技能</h2>
+                        <h2>Skills</h2>
                         <div class="skillbox">
                             <div class="skillbar">
                                 <div class="skillbar-title"
                                     style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 75%">
-                                    <span>Java</span>
+                                    <span>Python</span>
                                 </div>
                                 <div class="skill-bar-percent">75%</div>
                             </div>
@@ -124,53 +134,31 @@
                             <div class="skillbar">
                                 <div class="skillbar-title"
                                     style="background: linear-gradient(to right, #2196F3 0%, #42A5F5 100%); width: 60%">
-                                    <span>Spring</span>
+                                    <span>C</span>
                                 </div>
                                 <div class="skill-bar-percent">60%</div>
                             </div>
                             <div class="skillbar">
                                 <div class="skillbar-title"
                                     style="background: linear-gradient(to right, #00BCD4 0%, #80DEEA 100%); width: 70%">
-                                    <span>SpringMVC</span>
+                                    <span>C++</span>
                                 </div>
                                 <div class="skill-bar-percent">70%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #00BCD4 0%, #f54009 100%); width: 80%">
-                                    <span>SpringBoot</span>
-                                </div>
-                                <div class="skill-bar-percent">80%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 60%">
-                                    <span>Mybatis</span>
-                                </div>
-                                <div class="skill-bar-percent">60%</div>
-                            </div>
-                            <div class="skillbar">
-                                <div class="skillbar-title"
-                                    style="background: linear-gradient(to right, #FFEB3B 0%, #FFF176 100%); width: 75%">
-                                    <span>数据结构与算法</span>
-                                </div>
-                                <div class="skill-bar-percent">75%</div>
                             </div>
                         </div>
 
                         <hr>
-                        <h2>刷题</h2>
+                        <h2>Exercises</h2>
                         <div class="tool">
-                            <a href="https://leetcode-cn.com/problemset/all/" target="_blank">Leetcode</a><br>
+                            <a href="https://leetcode.cn/problem-list/2cktkvj/" target="_blank">HOT 100</a><br>
                             <a href="https://www.nowcoder.com/ta/coding-interviews" target="_blank">剑指 Offer</a>
                         </div>
 
                         <hr>
-                        <h2>收藏</h2>
+                        <h2>Collections</h2>
                         <div class="tool">
-                            <a href="http://tooool.org/" target="_blank" rel="noopener noreferrer">程序员导航、</a>
-                            <a href="https://adzhp.cn/" target="_blank" rel="noopener noreferrer">爱达杂货铺、</a>
-                            <a href="http://ifeve.com/" target="_blank" rel="noopener noreferrer">并发编程网</a>
+                            <a href="https://sotawhu.cn/" target="_blank" rel="noopener noreferrer">珞珈晚邮</a><br>
+                            <a href="https://github.com/CS-BAOYAN" target="_blank" rel="noopener noreferrer">CS-BAOYAN</a>
                         </div>
                     </div>
                 </article>
@@ -178,7 +166,7 @@
         </main>
         <footer id="footer">
             <div id="footer-wrap">
-                <div class="copyright">&copy;2019 - 2021 BY Bucaicai</div>
+                <div class="copyright">&copy;2024 - unknown BY xiangpl</div>
             </div>
         </footer>
     </div>
